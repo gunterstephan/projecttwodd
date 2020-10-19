@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steph\\source\\repos\\DimensionData\\projecttwodd\\projecttwodd.csproj": {}
+    "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steph\\source\\repos\\DimensionData\\projecttwodd\\projecttwodd.csproj": {
+    "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\source\\repos\\DimensionData\\projecttwodd\\projecttwodd.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj",
         "projectName": "projecttwodd",
-        "projectPath": "C:\\Users\\steph\\source\\repos\\DimensionData\\projecttwodd\\projecttwodd.csproj",
+        "projectPath": "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\source\\repos\\DimensionData\\projecttwodd\\obj\\",
+        "outputPath": "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
