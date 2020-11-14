@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj": {}
+    "C:\\Users\\steph\\Source\\Repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj": {
+    "C:\\Users\\steph\\Source\\Repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Source\\Repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj",
         "projectName": "projecttwodd",
-        "projectPath": "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj",
+        "projectPath": "C:\\Users\\steph\\Source\\Repos\\projecttwodd\\projecttwodd\\projecttwodd.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\source\\repos\\projecttwodd\\projecttwodd\\obj\\",
+        "outputPath": "C:\\Users\\steph\\Source\\Repos\\projecttwodd\\projecttwodd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[16.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
