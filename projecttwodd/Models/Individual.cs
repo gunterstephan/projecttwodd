@@ -24,6 +24,7 @@ namespace projecttwodd.Models
         public string Gender { get; set; }
         public int HourlyRate { get; set; }
         public int JobInvolvement { get; set; }
+        public int JobLevel { get; set; }
         public string JobRole { get; set; }
         public int JobSatisfaction { get; set; }
         public string MaritalStatus { get; set; }

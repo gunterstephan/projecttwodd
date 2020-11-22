@@ -48,9 +48,13 @@ namespace projecttwodd.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(individual);
+                if(individual.IndivId == 0)
+                    _context.Add(individual);
+                else
+                    _context.Update(individual);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+
             }
             return View(individual);
         }

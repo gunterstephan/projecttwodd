@@ -67,6 +67,9 @@ namespace projecttwodd.Migrations
                     b.Property<int>("JobInvolvement")
                         .HasColumnType("int");
 
+                    b.Property<int>("JobLevel")
+                        .HasColumnType("int");
+
                     b.Property<string>("JobRole")
                         .HasColumnType("nvarchar(max)");
 
